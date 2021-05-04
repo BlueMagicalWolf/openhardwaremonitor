@@ -66,7 +66,7 @@ $(function(){
         });
       }
 
-      viewModel.rate = 3000; //milliseconds
+      viewModel.rate = 1000; //milliseconds
       viewModel.timer = {};
 
       viewModel.startAuto = function (){
@@ -96,7 +96,7 @@ $(function(){
   $( "#refresh" ).button();
   $( "#auto_refresh" ).button();
   $( "#slider" ).slider({
-    value:3,
+    value:1,
     min: 1,
     max: 10,
     slide: function( event, ui ) {
